@@ -12,3 +12,23 @@ body {
     color: floralwhite;
 }
 
+@media (max-width: 768px) {
+    #showcase {
+        padding: 0 100px;
+    }
+}
+@media (max-width: 992px) {
+    .card-text {
+        padding: 110px;
+    }
+}
+@media (max-width: 1200px) {
+    .card-text {
+        padding: 90px;
+    }
+}
+@media (max-width: 1400px) {
+    .card-text {
+        padding: 70px;
+    }
+}
